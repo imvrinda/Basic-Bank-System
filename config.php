@@ -1,9 +1,9 @@
 <?php
 	//Local Development Connection requirement
-	$servername = "localhost";
-	$username = "root";
-	$password = "";
-	$dbname = "tsf-bank";
+	$servername = "remotemysql.com";
+	$username = "WP0BqJ4QBT";
+	$password = "vrinda2169@";
+	$dbname = "WP0BqJ4QBT";
 
 	$conn = mysqli_connect($servername, $username, $password, $dbname);
 
